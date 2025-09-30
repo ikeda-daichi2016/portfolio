@@ -162,9 +162,6 @@ summary {
 	border-color: #fff;
 }
 
-
-
-
 label {
 	color: #fff;
 	display: block;
@@ -174,8 +171,8 @@ label {
 }
 
 
-.contact-form input,
-.contact-form textarea {
+.contact_form input,
+.contact_form textarea {
 	width: 580px;
 	padding: 10px;
 	border: 2px solid #fff;
@@ -188,12 +185,12 @@ label {
 	resize: none;
 }
 
-.contact-form textarea {
+.contact_form textarea {
 	height: 150px;
 }
 
 
-.submit-button {
+.submit_button {
 
 	display: flex;
 	justify-content: center;
@@ -210,7 +207,7 @@ label {
 	cursor: pointer;
 }
 
-.submit-button:hover {
+.submit_button:hover {
 	background-color: #fff;
 	color: #000;
 	border-color: #000;
@@ -225,7 +222,6 @@ footer{
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	color: #fff;
-	
 	display: flex;        
     align-items: center;   
     justify-content: center;
