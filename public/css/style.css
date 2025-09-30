@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+body {
+
+	background-color: #000;
+}
+
+header {
+	background-image: url("../IMAGES/header.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0px auto;
+	border-bottom: 5px solid #fff;
+}
+
+.welcome {
+
+	font-size: 50px;
+	color: #fff;
+}
+
+.name {
+
+	font-size: 150px;
+	color: #fff;
+
+
+}
+
+.text {
+
+	padding-top: 650px;
+
+}
+
+.text p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+nav {
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.nav_width {
+	max-width: 1000px;
+	display: flex;
+
+}
+
+button {
+	background-color: #fff;
+	color: black;
+	width: 100px;
+	height: 100px;
+	padding: 150px 150px;
+	font-size: 40px;
+	border-color: black;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	text-decoration: none;
+}
+
+button:hover {
+	background-color: black;
+	color: #fff;
+	border-color: #fff;
+}
+
+
+
+main {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+
+section{
+		margin-top: 300px;
+}
+
+.Profile {
+	text-align: center;
+	color: #fff;
+}
+
+.pf_text {
+	font-size: 150px;
+	text-align: center;
+	margin-bottom: 60px;
+	color: #fff;
+}
+
+.pf_name {
+	font-size: 50px;
+}
+
+.pf_info {
+	font-size: 30px;
+	text-align: left;
+}
+
+
+.
