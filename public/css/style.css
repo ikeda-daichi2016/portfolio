@@ -58,7 +58,11 @@ nav {
 
 }
 
-button {
+.nav_width a {
+    text-decoration: none;
+}
+
+.nav_button {
 	background-color: #fff;
 	color: black;
 	width: 100px;
@@ -75,10 +79,11 @@ button {
 	justify-content: center;
 	align-items: center;
 	
-	text-decoration: none;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 
-button:hover {
+.nav_button:hover {
 	background-color: black;
 	color: #fff;
 	border-color: #fff;
@@ -90,6 +95,7 @@ main {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
 	max-width: 1000px;
 }
 
@@ -118,5 +124,111 @@ section{
 	text-align: left;
 }
 
+.Skill_group{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+details{
+	color: #fff;
+	font-size: 20px;
+	margin: 50px;
+	max-width: 300px;
+}
+
+details:hover summary{
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3); 
+    
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+summary{
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	padding: 100px 100px;
+	font-size: 25px;
+	border: solid;
+	border-radius: 50%;
+	border-color: #fff;
+
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	text-decoration: none;
+}
+
+.Skill_info{
+	color: #fff;
+	font-size: 20px;
+	
+	margin-top: 20px;
+	width: 300px;
+	height: 200px;
+	padding: 10px 10px;
+	border: solid;
+	border-radius: 20px;
+	border-color: #fff;
+}
+
+
+
+
+label{
+	color: #fff;
+	display: block; 
+    font-size: 20px;
+    margin-top: 35px; 
+    margin-bottom: 8px; 
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 580px; 
+    padding: 10px;
+    border: 2px solid #fff; 
+    border-radius: 5px; 
+    background-color: #333; 
+    color: #fff;
+    font-size: 18px;
+    height: 30px;
+    width: 1000px; 
+    resize: none; 
+}
+
+.contact-form textarea {
+    height: 150px; 
+}
+
+
+.submit-button {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px; 
+    padding: 0;    
+    margin: 50px auto 0; 
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
 .

@@ -18,29 +18,108 @@
 	<nav>
 		<div class="nav_width">
 			<a href="#Profile">
-			<button class="nav_Profile">Profile</button>
+				<button class="nav_button">Profile</button>
 			</a>
-			<button class="nav_Skill">Skill</button>
-			<button class="nav_Contact">Contact</button>
+			<a href="#Skill">
+				<button class="nav_button">Skill</button>
+			</a>
+			<a href="#Contact">
+				<button class="nav_button">Contact</button>
+			</a>
 		</div>
 	</nav>
 
 	<main>
-		
+
 		<section class="Profile" id="Profile">
-			<p class="pf_text">Profile</pclass="pf_text">
+			<p class="pf_text">Profile</p>
 			<div class="pf_info">
-			<p class="pf_name">池田 大地</p>
-			<p>山形県出身</p>
-			<p>趣味はスポーツ観戦、読書など。</p>
-			<p>休日は、友人と遊んだり、自宅にいるときは趣味のスポーツ観戦（野球、サッカー）と
-			読書などをしている。</p>
+				<p class="pf_name">池田 大地</p>
+				<p>山形県出身</p>
+				<p>趣味はスポーツ観戦、読書など。</p>
+				<p>休日は、友人と遊んだり、自宅にいるときは趣味のスポーツ観戦（野球、サッカー）と
+					読書などをしている。</p>
 			</div>
-			
+
 		</section>
-		
-		<section class="Skill">
-			<p class="pf_text">Skill</pclass="pf_text"></p>
+
+		<section class="Skill" id="Skill">
+			<p class="pf_text">Skill</p>
+			<div class="Skill_group">
+				<details class="Java">
+					<summary>
+						Java
+					</summary>
+
+					<p class="Skill_info">
+						基本的なオブジェクト指向および、<br>それを使用したプログラミング。
+					</p>
+
+				</details>
+
+				<details class="Oracle">
+					<summary>
+						Oracle
+					</summary>
+
+					<p class="Skill_info">
+
+						SQLを使用したDBの操作。<br>応用tまではいかないが、<br>基礎的な構文を使用したテーブル操作が可能。
+
+					</p>
+
+				</details>
+
+			</div>
+
+			<div class="Skill_group">
+
+				<details class="HTML">
+					<summary>
+						HTML CSS
+					</summary>
+
+					<p class="Skill_info">
+
+						HTMLおよびCSSを使用したレスポンシブwebデザインが可能。
+
+					</p>
+
+				</details>
+
+				<details class="Illustrator">
+					
+					<summary>
+						Illustrator Photoshop
+					</summary>
+
+					<p class="Skill_info">
+						Adobe Illustrator/Photoshopを使用した、<br>
+						グラフィックデザインが可能。
+					</p>
+				</details>
+			</div>
+		</section>
+
+
+		<section class="Contact" id="Contact">
+			<p class="pf_text">Contact</p>
+
+	        <form action="#" method="post" class="contact-form">
+            
+            <label for="name">お名前 </label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">メールアドレス </label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">メッセージ </label>
+            <textarea id="message" name="message" rows="8" required></textarea>
+            
+            <button type="submit" class="submit-button">送信する</button>
+            
+        </form
+			
 		</section>
 
 	</main>
