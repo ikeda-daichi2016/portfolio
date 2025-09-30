@@ -2,7 +2,6 @@
 
 
 body {
-
 	background-color: #000;
 }
 
@@ -13,36 +12,29 @@ header {
 	background-position: center center;
 	margin: 0px auto;
 	border-bottom: 5px solid #fff;
+
 }
 
 .welcome {
-
 	font-size: 50px;
 	color: #fff;
 }
 
 .name {
-
 	font-size: 150px;
 	color: #fff;
-
-
 }
 
 .text {
-
 	padding-top: 650px;
-
 }
 
 .text p {
 	margin-top: 0px;
 	margin-bottom: 0px;
-
 }
 
 nav {
-
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin-left: auto;
@@ -55,11 +47,10 @@ nav {
 .nav_width {
 	max-width: 1000px;
 	display: flex;
-
 }
 
 .nav_width a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .nav_button {
@@ -74,11 +65,9 @@ nav {
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 	text-align: center;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 	margin-right: 25px;
 	margin-left: 25px;
 }
@@ -99,8 +88,8 @@ main {
 	max-width: 1000px;
 }
 
-section{
-		margin-top: 300px;
+section {
+	margin-top: 300px;
 }
 
 .Profile {
@@ -124,29 +113,28 @@ section{
 	text-align: left;
 }
 
-.Skill_group{
+.Skill_group {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-details{
+details {
 	color: #fff;
 	font-size: 20px;
 	margin: 50px;
 	max-width: 300px;
 }
 
-details:hover summary{
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3); 
-    
-    background-color: #fff;
-    color: #000;
-    border-color: #000;
+details:hover summary {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+	background-color: #fff;
+	color: #000;
+	border-color: #000;
 }
 
-summary{
+summary {
 	color: #fff;
 	width: 100px;
 	height: 100px;
@@ -155,20 +143,16 @@ summary{
 	border: solid;
 	border-radius: 50%;
 	border-color: #fff;
-
 	text-align: center;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
-	text-decoration: none;
+
 }
 
-.Skill_info{
+.Skill_info {
 	color: #fff;
 	font-size: 20px;
-	
 	margin-top: 20px;
 	width: 300px;
 	height: 200px;
@@ -181,54 +165,55 @@ summary{
 
 
 
-label{
+label {
 	color: #fff;
-	display: block; 
-    font-size: 20px;
-    margin-top: 35px; 
-    margin-bottom: 8px; 
+	display: block;
+	font-size: 20px;
+	margin-top: 35px;
+	margin-bottom: 8px;
 }
 
 
 .contact-form input,
 .contact-form textarea {
-    width: 580px; 
-    padding: 10px;
-    border: 2px solid #fff; 
-    border-radius: 5px; 
-    background-color: #333; 
-    color: #fff;
-    font-size: 18px;
-    height: 30px;
-    width: 1000px; 
-    resize: none; 
+	width: 580px;
+	padding: 10px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	background-color: #333;
+	color: #fff;
+	font-size: 18px;
+	height: 30px;
+	width: 1000px;
+	resize: none;
 }
 
 .contact-form textarea {
-    height: 150px; 
+	height: 150px;
 }
 
 
 .submit-button {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 50px; 
-    padding: 0;    
-    margin: 50px auto 0; 
-    background-color: #000;
-    color: #fff;
-    font-size: 20px;
-    border: 2px solid #fff; 
-    border-radius: 5px; 
-    cursor: pointer;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 50px;
+	padding: 0;
+	margin: 50px auto 0;
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	cursor: pointer;
 }
 
 .submit-button:hover {
-    background-color: #fff;
-    color: #000;
-    border-color: #000;
+	background-color: #fff;
+	color: #000;
+	border-color: #000;
 }
+
 .
