@@ -188,7 +188,7 @@ label {
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-	background-color: rgb(0, 0, 64);;
+	background-color: #333;;
 	margin: 50px;
 	box-sizing: content-box;
 	transition: all 0.3s ease;
@@ -197,7 +197,7 @@ label {
 .skill_link_button:hover {
 	transform: translateY(-5px);
 	box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
-	background-color: #fff;
+	background-color: rgb(0, 0, 160);
 	color: #000;
 	border-color: #000;
 	font-size: 28px;
