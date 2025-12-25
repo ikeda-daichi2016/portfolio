@@ -136,7 +136,7 @@ details:hover summary {
 	font-size: 40px;
 }
 
-summary .btn_link {
+summary  {
 	color: #fff;
 	width: 100px;
 	height: 100px;
