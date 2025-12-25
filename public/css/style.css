@@ -174,12 +174,12 @@ label {
 
 
 .Link_Spring {
-    text-align: center; /* 中央寄せ */
+    text-align: center; 
     margin-top: 50px;
 }
 
 .btn_link {
-    display: inline-flex; /* 文字を中央にするため */
+    display: inline-flex; 
     justify-content: center;
     align-items: center;
     
@@ -189,7 +189,7 @@ label {
     background-color: #000;
     color: #fff;
     font-size: 20px;
-    text-decoration: none; /* 下線を消す */
+    text-decoration: none; 
     border: 2px solid #fff;
     border-radius: 5px;
     
