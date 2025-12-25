@@ -175,13 +175,10 @@ label {
 
 .Link_Spring {
     text-align: center; 
+    margin-top: 50px;
 }
 
-.title{
-	font-size: 50px;
-	color: #fff;
-	text-align: center; 
-}
+.
 
 .btn_link {
     display: inline-flex; 
