@@ -136,7 +136,7 @@ details:hover summary {
 	font-size: 40px;
 }
 
-summary  {
+summary{
 	color: #fff;
 	width: 100px;
 	height: 100px;
@@ -151,6 +151,8 @@ summary  {
 	align-items: center;
 
 }
+
+
 
 .Skill_info {
 	color: #fff;
@@ -172,6 +174,32 @@ label {
 	margin-bottom: 8px;
 }
 
+.skill_link_button {
+    color: #fff;
+    width: 200px;  
+    height: 200px;
+    font-size: 30px;
+    border: 2px solid #fff; 
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    margin: 50px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+
+.skill_link_button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+    font-size: 40px;
+}
 
 /*.Link_Spring {
     text-align: center; 
