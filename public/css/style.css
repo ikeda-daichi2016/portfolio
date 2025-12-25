@@ -174,37 +174,33 @@ label {
 	margin-bottom: 8px;
 }
 
-.Employee_System{
-		color: #fff;
-	font-size: 20px;
-	margin: 50px;
-	max-width: 300px;
-}
 .skill_link_button {
-    color: #fff;
-    width: 200px;  
-    height: 200px;
-    font-size: 30px;
-    border: 2px solid #fff; 
-    border-radius: 50%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none; 
-    margin: 50px;
-    transition: all 0.3s ease;
-    background-color: transparent;
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	padding: 100px 100px;
+	font-size: 30px;
+	border: solid;
+	border-radius: 50%;
+	border-color: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	background-color: transparent;
+	margin: 50px;
+	box-sizing: content-box;
+	transition: all 0.3s ease;
 }
-
 
 .skill_link_button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
-    background-color: #fff;
-    color: #000;
-    border-color: #000;
-    font-size: 40px;
+	transform: translateY(-5px);
+	box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+	background-color: #fff;
+	color: #000;
+	border-color: #000;
+	font-size: 40px;
 }
 
 /*.Link_Spring {
