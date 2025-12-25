@@ -173,7 +173,7 @@ label {
 }
 
 
-.Link_Spring {
+/*.Link_Spring {
     text-align: center; 
     margin-top: 50px;
 }
@@ -206,7 +206,7 @@ label {
     font-weight: bold;
     font-size: 25px;
 }
-
+*/
 .contact_form input,
 .contact_form textarea {
 	width: 580px;
